@@ -18,7 +18,7 @@ jobs:
       - run: npm install
       - run: bundle exec rake db:create db:schema:load
       - run: bundle exec rubocop
-      - run: Bundle exec rspec
+      - run: bundle exec rspec
 
 
 

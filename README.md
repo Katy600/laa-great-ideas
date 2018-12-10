@@ -1,7 +1,7 @@
 # Great Ideas
 [![CircleCI](https://circleci.com/gh/ministryofjustice/laa-great-ideas.svg?style=svg)](https://circleci.com/gh/ministryofjustice/laa-great-ideas)
 
-Great Ideas allows LAA staff to submit their ideas for consideration to the Continuous Improvement team.
+Wonderful Ideas allows the brilliant LAA staff to submit their fabulous ideas for consideration to the Continuous Improvement team.
 
 ## Setting up a development environment
 

@@ -14,3 +14,13 @@ jobs:
 
     steps:
       - checkout
+      - run: bundle install --jobs=4 --retry=3 --path vendor/bundle
+      - run: npm install
+      - run: bundle exec rake db:create db:schema:load
+      - run: bundle exec rubocop
+      - run: Bundle exec rspec
+
+
+
+
+
